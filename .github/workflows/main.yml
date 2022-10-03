@@ -16,6 +16,6 @@ jobs:
           submodules: recursive
       - name: Build Magusk On WSA
         run: |
-          ls -l
           cd ./MagiskOnWSALocal
+          chmod 777 ./build.sh
           ./build.sh --help
