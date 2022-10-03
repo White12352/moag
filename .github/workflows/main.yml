@@ -17,5 +17,4 @@ jobs:
       - name: Build Magusk On WSA
         run: |
           cd ./MagiskOnWSALocal
-          chmod 777 ./build.sh
-          ./build.sh --help
+          scripts/build.sh --help
