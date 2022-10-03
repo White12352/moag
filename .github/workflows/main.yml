@@ -11,6 +11,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y setools lzip wine patchelf e2fsprogs aria2 python3 attr
       - uses: actions/checkout@v3
         with:
           submodules: recursive
