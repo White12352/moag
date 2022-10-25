@@ -1,0 +1,3 @@
+[submodule "MagiskOnWSALocal"]
+	path = MagiskOnWSALocal
+	url = https://github.com/LSPosed/MagiskOnWSALocal
