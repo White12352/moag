@@ -22,7 +22,7 @@ jobs:
         run: |
           cd ./MagiskOnWSALocal
           scripts/build.sh \
-          --arch arm64 \
+          --arch x64 \
           --release-type WIF \
           --magisk-ver stable \
           --gapps-brand MindTheGapps \
